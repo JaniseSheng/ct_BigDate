@@ -1,0 +1,139 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+.number-text {
+  color: #e9d13a;
+}
+hr {
+  border-color: #0ca19b;
+}
+body {
+  color: #1da9a6;
+  background-image: url("/img/bg-2.png");
+}
+body .container-fluid {
+  height: 540px;
+}
+body .container-fluid .row {
+  padding-top: 15px;
+}
+body .container-fluid .mobile-business .col-lg-12:nth-of-type(1) h2 {
+  margin-top: -44px;
+  margin-left: 90px;
+  padding: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .mobile-business .col-lg-6.phone-sms-flow {
+  float: left;
+}
+body .container-fluid .mobile-business .col-lg-6.phone-sms-flow ul {
+  margin-left: -15px;
+}
+body .container-fluid .mobile-business .col-lg-6.phone-sms-flow ul li {
+  padding: 20px 0;
+}
+body .container-fluid .mobile-business .col-lg-6.phone-sms-flow ul h3 {
+  margin-top: -52px;
+  margin-left: 79px;
+}
+body .container-fluid .mobile-business .col-lg-6.open-user-chart {
+  height: 300px;
+}
+body .container-fluid .mobile-business .timeline span {
+  border-radius: 30px;
+  border: 5px solid yellow;
+  margin: 10px 10px 10px 30px;
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+body .container-fluid .mobile-business .timeline span h4 {
+  margin-top: 15px;
+}
+body .container-fluid .mobile-business .timeline ul {
+  margin-top: -50px;
+  margin-left: 110px;
+  background-color: #0f3c53;
+}
+body .container-fluid .mobile-business .timeline ul li {
+  width: 7.6%;
+}
+body .container-fluid .voice-business .col-lg-12:first-of-type h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .voice-business .col-lg-12:first-of-type span {
+  padding: 0 15px;
+}
+body .container-fluid .voice-business .chart-title {
+  display: inline-block;
+  width: 4%;
+  height: 120px;
+  text-align: center;
+  margin: 5px 10px 5px 15px;
+  padding: 40px 5px;
+  border: 1px solid #0ca19b;
+  background-color: #0f3c53;
+  color: #23a5a5;
+}
+body .container-fluid .sms-business .col-lg-12:nth-of-type(1) h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .sms-business .col-lg-12:nth-of-type(1) span {
+  padding: 0 15px;
+}
+body .container-fluid .sms-business .chart-title {
+  display: inline-block;
+  width: 4%;
+  height: 120px;
+  text-align: center;
+  margin: 5px 10px 5px 15px;
+  padding: 40px 5px;
+  border: 1px solid #0ca19b;
+  background-color: #0f3c53;
+  color: #23a5a5;
+}
+body .container-fluid .flow-business .col-lg-12:nth-of-type(1) h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .flow-business .col-lg-12:nth-of-type(1) span {
+  padding: 0 15px;
+}
+#js-mobil-open-user {
+  height: 300px;
+}
+#js-hk-and-tw-voic {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-inland-voic {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-international-voic {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-hk-and-tw-sms {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-inland-sms {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-international-sms {
+  width: 91%;
+  float: right;
+  height: 135px;
+}
+#js-flow-order {
+  height: 380px;
+}

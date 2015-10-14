@@ -1,0 +1,61 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+.number-text {
+  color: #e9d13a;
+}
+hr {
+  border-color: #0ca19b;
+}
+body {
+  color: #1da9a6;
+  background-image: url("/img/bg-2.png");
+}
+body .container-fluid {
+  height: 540px;
+}
+body .container-fluid .row {
+  padding-top: 15px;
+}
+body .container-fluid .earning .col-lg-12:nth-of-type(1) h2 {
+  margin-top: -44px;
+  margin-left: 90px;
+  padding: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .earning .col-lg-12:nth-of-type(2) {
+  height: 300px;
+}
+body .container-fluid .order-earning .col-lg-12:first-of-type h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .order-earning .col-lg-12:first-of-type span {
+  padding: 0 15px;
+}
+body .container-fluid .cost-earning .col-lg-12:nth-of-type(1) h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .cost-earning .col-lg-12:nth-of-type(1) span {
+  padding: 0 15px;
+}
+body .container-fluid .remuneration-earning .col-lg-12:nth-of-type(1) h3 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0ca19b;
+}
+body .container-fluid .remuneration-earning .col-lg-12:nth-of-type(1) span {
+  padding: 0 15px;
+}
+#js-earning {
+  height: 380px;
+}
+#js-order-earning {
+  height: 380px;
+}
+#js-cost-earning {
+  height: 380px;
+}
+#js-remuneration-earning {
+  height: 380px;
+}

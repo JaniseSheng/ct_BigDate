@@ -1,0 +1,175 @@
+@import "prefixer";
+
+@body-color:url("/img/page1/page1-pg.png");
+@bg-color:#0ca19b;
+@text-color:#1da9a6;
+@text-num-color:#E9D13A;
+@border-color:#0ca19b;
+*{
+	font-family: "Microsoft YaHei";
+}
+.number-text{
+	color: @text-num-color;
+}
+hr {
+	border-color: @bg-color;
+}
+
+body {
+	color: @text-color;
+	background-image: @body-color;
+	& .container-fluid{
+		height:540px;
+		// 上层
+		&.up{
+			& hr{
+				margin-right: 40px;
+				margin-left: 40px;
+			}
+			// 大标题
+			& .title{
+				padding:50px;
+				& h3:first-of-type{
+					margin-left: -300px;
+				}
+				& h3:last-of-type{
+					margin-left:244px;
+				}
+			}
+			// 二维码
+			& .QR-Code{
+				overflow: hidden;
+				padding:10px;
+				margin: 20px 30%;
+				border: 1px solid @border-color;
+			}
+			// 订单业务用户数和光网端口覆盖率
+			& .up-right{
+				padding-top: 80px;
+				& .orders{
+					& .col-lg-6{
+						padding-top:35px;
+						& h1{
+							margin-top: 15px;
+						}
+						& h3{
+							border-top: 4px solid @border-color;
+							padding-top: 20px;
+							margin-left: 25px;
+							margin-right: 25px;
+							// border-top-left-radius:
+						}
+					}
+				}
+			}
+		}
+
+		// 下层
+		&.down{
+			& .component-6{
+				margin-top:20px;
+				height:250px;
+				text-align: center;
+				& hr{
+					margin-right: 40px;
+					margin-left: 40px;
+				}
+				// 移动用户到达数
+				&.mobile-user{
+					& .col-lg-12{
+						padding:3px;
+					}
+				}
+				// 移动语音业务量
+				&.mobile-voice{
+					& .col-lg-12{
+						& h2{
+							border-bottom: 2px dotted @border-color;
+						}
+					}
+				}
+				// 移动数据业务量
+				&.mobile-data{
+					& .col-lg-12{
+						& h2{
+							border-bottom: 2px dotted @border-color;
+						}
+					}
+				}
+			}
+			// 客服业务量
+			& .service-business-number{
+				& .col-lg-4{
+					& .col-lg-6:first-of-type{
+						text-align: right;
+						border-right:2px solid @border-color;
+					}
+				}
+				// 移动客服业务量
+				& .col-lg-4:nth-of-type(1){
+					& .col-lg-6{
+						padding-top:8px;
+						padding-bottom:8px;
+					}
+					& .col-lg-6:nth-of-type(2){
+						& h3{
+							margin-top:28px;
+						}
+					}
+				}
+				// 固话客服业务量
+				& .col-lg-4:nth-of-type(2){
+					& .col-lg-6{
+						padding-top: 17px;
+						padding-bottom: 16px;
+					}
+				}
+				// 宽带客服业务量
+				& .col-lg-4:nth-of-type(3){
+					& .col-lg-6{
+						padding-top: 15px;
+						padding-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// 光网端口覆盖率
+#js-light-network{
+	height:250px;
+	text-align: center;
+}
+// 移动开机用户数
+#js-mobile-open-number{
+	height:115px;
+	text-align: center;
+}
+// 固网业务量
+#js-fixed-network-service{
+	height:220px;
+	text-align: center;
+	// margin-top: -50px;
+}
+// 客服服务投诉量
+#js-service-complaint{
+	height: 220px;
+	text-align: center;
+	// margin-top: -50px;
+
+}
+
+
+//-- ----------------subpage1-- ----------------
+#subpage1,#subpage2,#subpage3{
+/*   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   height: 480px;*/
+ }
+
+

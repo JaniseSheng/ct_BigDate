@@ -1,0 +1,88 @@
+@body-color:url("/img/bg-2.png");
+@bg-color:#0ca19b;
+@text-color:#1da9a6;
+@text-num-color:#E9D13A;
+@border-color:#0ca19b;
+*{
+	font-family: "Microsoft YaHei";	
+}
+
+.number-text{
+	color: @text-num-color;
+}
+hr {
+	border-color: @bg-color;
+}
+body{
+	color: @text-color;
+	background-image: @body-color;
+	& .container-fluid{
+		height:540px;
+		& .component-6{
+			// padding-top: 20px;
+		}
+		& .row{
+			padding-top:15px;
+		}
+		& .earning{
+			& .col-lg-12:nth-of-type(1){
+				& h2{
+					margin-top:-44px;
+					margin-left: 90px;
+					padding:5px;
+					border-bottom:2px solid @border-color;
+				}
+			}
+
+			& .col-lg-12:nth-of-type(2){
+				height: 300px;
+			}	
+		}
+		& .order-earning{
+			& .col-lg-12:first-of-type{
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+		}
+		& .cost-earning{
+			& .col-lg-12:nth-of-type(1){
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+		}
+		& .remuneration-earning{
+			& .col-lg-12:nth-of-type(1){
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+		}
+	}
+}
+
+#js-earning{
+	height:380px;
+}
+#js-order-earning{
+	height:380px;
+}
+#js-cost-earning{
+	height:380px;
+}
+#js-remuneration-earning{
+	height:380px;
+}

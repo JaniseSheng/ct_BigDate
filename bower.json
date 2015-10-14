@@ -1,0 +1,59 @@
+{
+  "name": "bigdata-information",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "artTemplate": "https://github.com/aui/artTemplate.git#~3.0.1",
+    "bootstrap": "~3.3.5",
+    "director": "~1.2.8",
+    "domReady": "~2.0.1",
+    "echarts": "~2.2.7",
+    "jquery": "~2.1.4",
+    "moment": "~2.10.6",
+    "requirejs": "~2.1.20",
+    "socket.io-client": "~1.3.6",
+    "zrender": "~2.1.1"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "": [
+        "dist/js/*.min.js",
+        "dist/css/*.min.css"
+      ],
+      "fonts": "dist/fonts/*"
+    },
+    "artTemplate": {
+      "": "dist/*.js"
+    },
+    "domReady": {
+      "": "*.js"
+    },
+    "jquery": {
+      "": "dist/*.min.js"
+    },
+    "requirejs": {
+      "": "*.js"
+    },
+    "socket.io-client": {
+      "": "socket.io.js",
+      "/lib": "lib/*.js"
+    },
+    "moment": {
+      "": "min/*.min.js"
+    },
+    "echarts": {
+      "": "build/dist/*.js",
+      "/chart": "build/dist/chart/*.js"
+    },
+    "zrender": {
+      "": "build/zrender.js"
+    },
+    "director":{
+      "": "build/director.min.js"
+    }
+  }
+}

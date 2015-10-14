@@ -1,0 +1,216 @@
+@import "prefixer";
+@body-color:url("/img/bg-2.png");
+@bg-color:#0ca19b;
+@text-color:#1da9a6;
+@text-num-color:#E9D13A;
+@border-color:#0ca19b;
+*{
+	font-family: "Microsoft YaHei";
+}
+
+.number-text{
+	color: @text-num-color;
+}
+hr {
+	border-color: @bg-color;
+}
+body{
+	color: @text-color;
+	background-image: @body-color;
+	& .container-fluid{
+		height:540px;
+		& .component-6{
+			& h3{
+				color:#E9D13A;
+				& small{
+					color:#E9D13A;
+				}
+			}
+		}
+		& .row{
+			margin:15px 20px;
+		}
+		// 订单业务数
+		& .order{
+			// 标题
+			& .col-lg-10{
+				border-bottom: 2px solid @border-color;
+				& h2{
+					margin-top: 20px;
+					color: @text-color;
+				}
+				& .col-lg-6:last-of-type{
+					margin-top: 33px;
+					& span{
+						width:30px;
+						height:10px;
+						display: inline-block;
+						background: chocolate;
+						margin-right: 6px;
+						border-radius:5px;
+					}
+				}
+			}
+			& h2{
+				margin-top: -90px;
+				color: white;
+			}
+			& h3{
+				margin-top: -45px;
+				padding-bottom:10px;
+				border-bottom: 2px solid @border-color;
+			}
+			& span{
+				display: inline-block;
+				height: 147px;
+				width: 147px;
+				background-image: url("/img/page2/page2_22_03.png")
+			}
+			// 全年装机数
+			& .order-install{
+
+			}
+			// 全年拆机数
+			& .order-uninstall{
+				// & span{
+				// 	display: inline-block;
+				// 	height: 147px;
+				// 	width: 147px;
+				// 	background-image: url("/img/page2/page2_22_03.png")
+				// }
+				// & h2{
+				// 	margin-top: -90px;
+				// 	color: white;
+				// }
+				// & h3{
+				// 	margin-top: -45px;
+				// 	border-bottom: 2px solid @border-color;
+				// }
+			}
+		}
+		// & .row{
+		// 	& .col-lg-12{
+		// 		height:210px;
+		// 		text-align: center;
+		// 		padding-top: 10px;
+		// 		& h2{
+		// 			margin-top: -90px;
+		// 			color: white;
+		// 		}
+		// 	}
+		// }
+
+		// 宽带订单业务数
+		& .network-order{
+			& h3{
+				padding-bottom: 15px;
+				border-bottom: 2px solid @border-color;
+				& img{
+					margin-right: 10px;
+				}
+				& span:nth-of-type(1){
+					display: inline-block;
+					width: 45px;
+					height: 45px;
+					margin:-13px 0;
+					background-image: url("/img/page2/page2_06.png")
+				}
+				& span:nth-of-type(2){
+					margin-bottom: -4px;
+					display: inline-block;
+					height: 24px;
+					width: 10px;
+					margin-right: 10px;
+					border-right: 1px solid #E9D13A;
+					// height: 4px;
+				}
+			}
+		}
+		// 固话订单业务数
+		& .fix-phone-order{
+			& h3{
+				padding-bottom: 15px;
+				border-bottom: 2px solid @border-color;
+				& img{
+					margin-right: 10px;
+				}
+				& span:nth-of-type(1){
+					display: inline-block;
+					width: 45px;
+					height: 45px;
+					margin:-13px 0;
+					background-image: url("/img/page2/page2_06.png")
+				}
+				& span:nth-of-type(2){
+					margin-bottom: -4px;
+					display: inline-block;
+					height: 24px;
+					width: 10px;
+					margin-right: 10px;
+					border-right: 1px solid #E9D13A;
+					// height: 4px;
+				}
+			}
+		}
+		// 移动订单业务数
+		& .mobile-order{
+			& h3{
+				padding-bottom: 15px;
+				border-bottom: 2px solid @border-color;
+				& img{
+					margin-right: 10px;
+				}
+				& span:nth-of-type(1){
+					display: inline-block;
+					width: 45px;
+					height: 45px;
+					margin:-13px 0;
+					background-image: url("/img/page2/page2_06.png")
+				}
+				& span:nth-of-type(2){
+					margin-bottom: -4px;
+					display: inline-block;
+					height: 24px;
+					width: 10px;
+					margin-right: 10px;
+					border-right: 1px solid #E9D13A;
+					// height: 4px;
+				}
+			}
+		}
+
+	}
+}
+
+#js-all-year-deselect{
+	height: 190px;
+	// text-align:center;
+}
+#js-all-year-select{
+	height: 190px;
+	// text-align: center;
+}
+#js-all-year-install{
+	height: 190px;
+}
+#js-all-year-uninstall{
+	height: 190px;
+}
+#js-network-order-select{
+	height:190px;
+}
+#js-network-order-deselect{
+	height:190px;
+}
+#js-fix-phone-order-install{
+	height: 190px;
+}
+#js-fix-phone-order-uninstall{
+	height: 190px;
+}
+#js-mobile-order-install{
+	height: 190px;
+}
+#js-mobile-order-uninstall{
+	height: 190px;
+}

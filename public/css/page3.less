@@ -1,0 +1,175 @@
+@body-color:url("/img/bg-2.png");
+@bg-color:#0ca19b;
+@text-color:#1da9a6;
+@text-num-color:#E9D13A;
+@border-color:#0ca19b;
+*{
+	font-family: "Microsoft YaHei";	
+}
+
+.number-text{
+	color: @text-num-color;
+}
+hr {
+	border-color: @bg-color;
+}
+body{
+	color: @text-color;
+	background-image: @body-color;
+	& .container-fluid{
+		height:540px;
+		& .component-6{
+			// padding-top: 20px;
+		}
+		& .row{
+			padding-top:15px;
+		}
+		& .mobile-business{
+			& .col-lg-12:nth-of-type(1){
+				& h2{
+					margin-top:-44px;
+					margin-left: 90px;
+					padding:5px;
+					border-bottom:2px solid @border-color;
+				}
+			}
+			& .col-lg-6.phone-sms-flow{
+				float:left;
+				// width:310px;
+				& ul{
+					margin-left: -15px;
+					// margin-top:20px;
+					& li{
+						padding:20px 0;
+					}
+					& h3{
+						margin-top: -52px;
+						margin-left: 79px;	
+					}
+				}
+
+			}
+			& .col-lg-6.open-user-chart{
+				height: 300px;
+			}
+			& .timeline{
+				& span{
+					border-radius: 30px;
+					border: 5px solid yellow;
+					margin: 10px 10px 10px 30px;
+					display: block;
+					height:60px;
+					width:60px;
+					& h4{
+						margin-top: 15px;
+					}
+				}
+				& ul{
+					margin-top: -50px;
+					margin-left: 110px;
+					background-color: #0f3c53;
+					& li{
+						// margin-left: :0 0.%;
+						width:7.6%;
+					}
+				}
+			}
+			
+		}
+		& .voice-business{
+			& .col-lg-12:first-of-type{
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+			& .chart-title{
+				display: inline-block;
+				width:4%;
+				height:120px;
+				text-align: center;
+				margin:5px 10px 5px 15px;
+				padding: 40px 5px;
+				border: 1px solid @border-color;
+				background-color: #0f3c53;
+				color: #23a5a5;
+			}
+		}
+		& .sms-business{
+			& .col-lg-12:nth-of-type(1){
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+			& .chart-title{
+				display: inline-block;
+				width:4%;
+				height:120px;
+				text-align: center;
+				margin:5px 10px 5px 15px;
+				padding: 40px 5px;
+				border: 1px solid @border-color;
+				background-color: #0f3c53;
+				color: #23a5a5;
+			}
+		}
+		& .flow-business{
+			& .col-lg-12:nth-of-type(1){
+				& h3{
+					padding-bottom: 5px;
+					border-bottom: 2px solid @border-color;
+				}
+				& span{
+					padding:0 15px;
+				}
+			}
+		}
+	}
+}
+
+#js-mobil-open-user{
+	height: 300px;
+}
+#js-hk-and-tw-voic{
+	width:91%;
+	float:right;
+	height:135px;
+}
+#js-inland-voic{
+	width:91%;
+	float:right;
+	height:135px;
+}
+#js-international-voic{
+	width:91%;
+	float:right;
+	height:135px;
+}
+
+
+#js-hk-and-tw-sms{
+	width:91%;
+	float:right;
+	height:135px;
+}
+#js-inland-sms{
+	width:91%;
+	float:right;
+	height:135px;
+}
+#js-international-sms{
+	width:91%;
+	float:right;
+	height:135px;
+}
+
+#js-flow-order{
+	height:380px;
+}
