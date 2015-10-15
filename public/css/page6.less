@@ -1,3 +1,4 @@
+@import "prefixer";
 
 @body-color:url("/img/bg-2.png");
 @bg-color:#0ca19b;
@@ -17,6 +18,9 @@ hr {
 body{
 	color: @text-color;
 	background-image: @body-color;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top left;
 	& .container-fluid{
 		height:540px;
 		& .component-6{

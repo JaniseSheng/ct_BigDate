@@ -1,3 +1,6 @@
+.Width_100 {
+  width: 100%;
+}
 .Width_75 {
   width: 75%;
 }
@@ -25,6 +28,40 @@
 .TextCenter {
   text-align: center;
 }
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#bigPage {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+#bigPage iframe {
+  width: 960px;
+  height: 540px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: absolute;
+}
+#bigPage > iframe:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+#bigPage > iframe:nth-of-type(2) {
+  top: 0;
+  right: 0;
+}
+#bigPage > iframe:nth-of-type(3) {
+  bottom: 0;
+  left: 0;
+}
+#bigPage > iframe:nth-of-type(4) {
+  bottom: 0;
+  right: 0;
+}
 * {
   font-family: "Microsoft YaHei";
 }
@@ -37,6 +74,9 @@ hr {
 body {
   color: #1da9a6;
   background-image: url("/img/page1/page1-pg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
 }
 body .container-fluid {
   height: 540px;

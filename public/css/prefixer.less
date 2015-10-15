@@ -1,6 +1,10 @@
+.Width_100{
+  width: 100%
+}
 .Width_75{
   width: 75%
 }
+
 .Width_50{
    width: 50%;
  }
@@ -24,4 +28,41 @@
 }
 .TextCenter{
   text-align: center;
+}
+body{
+   margin: 0;
+   padding: 0;
+   border: none;
+ }
+
+
+
+#bigPage{
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  iframe{
+    width: 960px;
+    height: 540px;
+    margin: 0;
+    padding: 0;
+    border:none;
+    position: absolute;
+  }
+  &>iframe:nth-of-type(1){
+    top:0;
+    left: 0;
+  }
+  &>iframe:nth-of-type(2){
+    top:0;
+    right: 0;
+  }
+  &>iframe:nth-of-type(3){
+    bottom:0;
+    left: 0;
+  }
+  &>iframe:nth-of-type(4){
+    bottom:0;
+    right: 0;
+  }
 }
